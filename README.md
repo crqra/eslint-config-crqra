@@ -37,7 +37,7 @@ Or, touch a `.eslintrc` file and add:
 3. Copy the `.prettierrc` file from this repository
 
 ```bash
-$ cp ./node_modules/crqra/eslint-config/crqra/.prettierrc .
+$ cp ./node_modules/eslint-config-crqra/.prettierrc .
 ```
 
 Or add the file contents to your `package.json`:
