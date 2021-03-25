@@ -27,7 +27,7 @@ $ npx install-peerdeps --dev eslint-config-crqra
 
 Or, touch a `.eslintrc` file and add:
 
-```
+```json
 {
   "extends": [
     "crqra"
@@ -37,7 +37,7 @@ Or, touch a `.eslintrc` file and add:
 
 3. Copy the `.prettierrc` file from this repository
 
-```
+```bash
 $ cp ./node_modules/crqra/eslint-config/crqra/.prettierrc .
 ```
 
