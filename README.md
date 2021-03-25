@@ -1,6 +1,6 @@
 # Personal ESLint Config
 
-This is an opionated configuration preset for ESLint.
+This is an opinionated configuration preset for ESLint.
 
 ## Setting up
 
@@ -8,10 +8,9 @@ This is an opionated configuration preset for ESLint.
 
 ```bash
 $ npm i --save-dev crqra/eslint-config-crqra
-
-# Install peer dependencies
-$ npx install-peerdeps --dev eslint-config-crqra
 ```
+
+Make sure to install Peer Dependencies as well.
 
 2. Add the following to `package.json`:
 
@@ -39,6 +38,23 @@ Or, touch a `.eslintrc` file and add:
 
 ```bash
 $ cp ./node_modules/crqra/eslint-config/crqra/.prettierrc .
+```
+
+Or add the file contents to your `package.json`:
+
+```json
+{
+  "prettier": {
+    "printWidth": 100,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "bracketSpacing": true,
+    "arrowParens": "avoid"
+  }
+}
 ```
 
 ---
