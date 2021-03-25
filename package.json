@@ -1,0 +1,40 @@
+{
+  "name": "eslint-config-crqra",
+  "version": "0.0.1",
+  "description": "ESLint configuration preset",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "author": {
+    "name": "João Cerqueira",
+    "email": "oss@cerqueira.io",
+    "url": "https://cerqueira.io"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:crqra/eslint-config-crqra.git"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "eslint": "*",
+    "eslint-plugin-functional": "*",
+    "eslint-plugin-jest": "*",
+    "eslint-plugin-jsdoc": "*",
+    "prettier": "*",
+    "prettier-plugin-organize-imports": "*"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "eslint": "^7.22.0",
+    "eslint-plugin-functional": "^3.2.1",
+    "eslint-plugin-jest": "^24.3.2",
+    "eslint-plugin-jsdoc": "^32.3.0",
+    "prettier": "^2.2.1",
+    "prettier-plugin-organize-imports": "^1.1.1"
+  }
+}
