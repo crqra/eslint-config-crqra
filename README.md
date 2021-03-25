@@ -17,13 +17,13 @@ $ npx install-peerdeps --dev eslint-config-crqra
 
 ```json
 {
-	"eslintConfig": {
-		{
- 			"extends": [
-    		"crqra"
-  		]
-		}
-	}
+  "eslintConfig": {
+    {
+      "extends": [
+        "crqra"
+      ]
+    }
+  }
 }
 ```
 
@@ -31,9 +31,9 @@ Or, touch a `.eslintrc` file and add:
 
 ```
 {
-	"extends": [
-		"crqra"
-	]
+  "extends": [
+    "crqra"
+  ]
 }
 ```
 
